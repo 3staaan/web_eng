@@ -1,0 +1,185 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.main{
+    position: relative;
+    overflow: hidden;
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/53/155/630/cat-animal-eyes-feline-cartoon-wallpaper-preview.jpg");
+    background-size: 1400px;
+    width: 100%;
+    height: 100vh;
+}
+
+.title{
+    flex: 1;
+    margin-top: 20px;
+    margin-left: 800px;
+    margin-bottom: 10px;
+}
+.information{
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    top: 50%;
+    left: -20%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+#circle{
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 100%;
+    transform: rotate(0deg);
+    transition: 1s;
+}
+.feature img{
+    width: 300px;   
+    color: #000; 
+}
+.feature{
+    position: fixed;
+}
+.feature div{
+    margin-left: 10px;
+}
+.feature div p{
+    margin-top: 8px;
+}
+.one{
+    top: 300px;
+    right: -250px;
+}
+.two{
+    top: -200px;
+    left: 200px;
+    transform: rotate(270deg);
+}
+.three{
+    bottom: 400px;
+    left: -300px;
+    transform: rotate(180deg);
+}
+.four{
+    bottom: -250px;
+    right: 250px;
+    transform: rotate(90deg);
+}
+
+#controls{
+    position: absolute;
+    margin-top: 275px;
+    margin-left: 40px;
+    transform: translateY(-50%);
+    text-align: center;
+    color: aliceblue;
+    display: none;
+}
+.controls h3{
+    margin: 15px 0;
+    color: #808080;
+}
+.btn_spc{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#upBtn{
+    width: 35px;
+    cursor: pointer;
+}
+#downBtn{
+    width: 35px;
+    cursor: pointer;
+    transform: rotate(180deg);
+}
+.overlay{
+    width: 0;
+    height: 0;
+    border-top: 500px solid #000;
+    border-right: 500px solid transparent;
+    border-bottom: 500px solid #000;
+    border-left: 500px solid #000;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+.button_color{
+    position: relative;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    font-weight: bold;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gray;
+    border-radius: 10px;
+    color: #000;
+}
+.resize{
+    position: fixed;
+    margin-left: 30px;
+    display: flex;
+    width: 300px;
+}
+
+#shape{
+    padding: 20px;
+}
+.links{
+    display: none;
+    position: fixed;
+}
+#find{
+    width: 600px;
+}
+#ty{
+    width: 400px;
+}
+.hide1{
+    display: none;
+    position: relative;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    font-weight: bold;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gray;
+    border-radius: 10px;
+    color: #000;
+}
+.hide2{
+    display: block;
+    position: relative;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    font-weight: bold;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gray;
+    border-radius: 10px;
+    color: #000;
+}
+.hide3{
+    display: none;
+    position: relative;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    font-weight: bold;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gray;
+    border-radius: 10px;
+    color: #000;
+}
